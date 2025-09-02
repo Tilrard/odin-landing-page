@@ -1,0 +1,1 @@
+This is the second project in the TOP Foundations Course. I'll be building a website landing page based on the specifications provided in TOP.
