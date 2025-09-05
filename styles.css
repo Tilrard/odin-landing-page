@@ -72,20 +72,18 @@ padding: 50px;
 }
 
 img{
- max-width: 100%;
+   max-width: 100%;
+   
+
     
 }
 
-.herotext{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap
-}
 
 .hero_img{
     display: flex;
-    align-items: flex-end;
-    padding: 25px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
     width: 400px;
     
 }
