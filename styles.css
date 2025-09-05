@@ -10,18 +10,19 @@ background: #1F2937;
 
 .header {
 height: 72px;
+padding: inherit;
 color: white;
 display: flex;
 justify-content: space-between;
 }
 
 .logo {
-    display: flex;
-    justify-content:flex-start;
-    align-items: flex-start;
-    
     font-size: 24px;
     color: #f9faf8;
+}
+
+.first_third{
+    padding: 10px 50px;
 }
 
 .links{
@@ -53,20 +54,20 @@ justify-content: center;
 
 }
 
-.container1 {
+.header_content {
 display: flex;
 padding: 50px;
 
 
 }
 
-.container2{
+.second_third{
     background: #e5e7eb;
     flex: 1;
 
 }
 
-.container3{
+.final_third{
 
 }
 
@@ -99,10 +100,19 @@ img{
 }
 
 
+.links{
+    font-size: 18px;
+    font-weight: 100;
+    color: #e5e7eb
+}
+
 
 a{
     text-decoration: none;
-    color: #e5e7eb;
+    color: inherit;
+    font-size: inherit;
+    font: inherit;
+    
 }
 
 button {
