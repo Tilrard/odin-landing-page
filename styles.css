@@ -5,8 +5,8 @@ min-height: 100vh;
 display: flex;
 flex-direction: column;
 background: #1F2937;
-
 }
+
 
 .header {
 height: 72px;
@@ -37,11 +37,19 @@ justify-content: space-between;
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    
 }
 
 .hero2 {
     font-size: 18px;
     color:#e5e7eb;
+    font-weight: 100;
+}
+
+.herotextandbutton{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .footer {
@@ -51,14 +59,11 @@ color: white;
 display: flex;
 align-items: center;
 justify-content: center;
-
 }
 
 .header_content {
 display: flex;
 padding: 50px;
-
-
 }
 
 .second_third{
@@ -73,9 +78,6 @@ padding: 50px;
 
 img{
    max-width: 100%;
-   
-
-    
 }
 
 
@@ -104,16 +106,24 @@ img{
     color: #e5e7eb
 }
 
+.sign_up{
+   
+    padding: 5px 28px;
+    border-radius: 6px;
+    border: none;
+    max-width: 125px;  
+}
+
+
 
 a{
     text-decoration: none;
     color: inherit;
     font-size: inherit;
     font: inherit;
-    
 }
 
 button {
     background: #3882f6;
-    color:#e5e7eb
+    color:#e5e7eb;
 }
