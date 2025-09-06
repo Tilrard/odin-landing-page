@@ -1,19 +1,38 @@
+/* ===== GLOBAL STYLES ===== */
 body {
-font-family: "Roboto", system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-margin: 0;
-min-height: 100vh;
-display: flex;
-flex-direction: column;
-background: #1F2937;
+    font-family: "Roboto", system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #1F2937;
 }
 
+/* ===== UTILITY CLASSES ===== */
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
 
+button {
+    background: #3882f6;
+    color: #e5e7eb;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ===== HEADER SECTION ===== */
 .header {
-height: 72px;
-padding: inherit;
-color: white;
-display: flex;
-justify-content: space-between;
+    height: 72px;
+    padding: inherit;
+    color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
@@ -21,76 +40,69 @@ justify-content: space-between;
     color: #f9faf8;
 }
 
-.first_third{
-    padding: 10px 50px;
-}
-
-.links{
+.links {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
     padding: 5px;
     gap: 16px;
+    font-size: 18px;
+    font-weight: 100;
+    color: #e5e7eb;
+}
+
+/* ===== HERO SECTION ===== */
+.first_third {
+    padding: 10px 100px;
+}
+
+.header_content {
+    display: flex;
+    padding: inherit;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.herotextandbutton {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 0 1 50%;
 }
 
 .hero1 {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
-    
 }
 
 .hero2 {
     font-size: 18px;
-    color:#e5e7eb;
+    color: #e5e7eb;
     font-weight: 100;
 }
 
-.herotextandbutton{
+.hero_img {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    flex: 1 1 50%;
+    max-height: 225px;
 }
 
-.footer {
-height: 72px;
-background: gray;
-color: white;
-display: flex;
-align-items: center;
-justify-content: center;
+.sign_up {
+    padding: 8px 28px;
+    border-radius: 6px;
+    border: none;
+    max-width: 110px;
 }
 
-.header_content {
-display: flex;
-padding: 50px;
-}
-
-.second_third{
+/* ===== INFORMATION SECTION ===== */
+.second_third {
     background: #e5e7eb;
     flex: 1;
-
 }
 
-.final_third{
-
-}
-
-img{
-   max-width: 100%;
-}
-
-
-.hero_img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px;
-    width: 400px;
-    
-}
-
-.information_header{
+.information_header {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
@@ -99,31 +111,17 @@ img{
     padding: 25px;
 }
 
-
-.links{
-    font-size: 18px;
-    font-weight: 100;
-    color: #e5e7eb
+/* ===== FINAL SECTION ===== */
+.final_third {
+    /* Placeholder for future content */
 }
 
-.sign_up{
-   
-    padding: 5px 28px;
-    border-radius: 6px;
-    border: none;
-    max-width: 125px;  
-}
-
-
-
-a{
-    text-decoration: none;
-    color: inherit;
-    font-size: inherit;
-    font: inherit;
-}
-
-button {
-    background: #3882f6;
-    color:#e5e7eb;
+/* ===== FOOTER SECTION ===== */
+.footer {
+    height: 72px;
+    background: gray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
