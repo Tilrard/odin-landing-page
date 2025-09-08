@@ -53,7 +53,7 @@ img {
 }
 
 /* ===== HERO SECTION ===== */
-.first_third {
+.container1 {
     padding: 20px 150px;
 }
 
@@ -101,7 +101,7 @@ img {
 }
 
 /* ===== INFORMATION SECTION ===== */
-.second_third {
+.container2 {
     background: #e5e7eb;
     flex: 1;
     padding: 10px 100px;
@@ -148,7 +148,7 @@ img {
 }
 
 /* ===== FINAL SECTION ===== */
-.final_third {
+.container3 {
     /* Placeholder for future content */
 }
 
