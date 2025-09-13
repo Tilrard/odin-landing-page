@@ -8,6 +8,12 @@ body {
     background: #1F2937;
 }
 
+/* Reset default margins */
+h1, h2, h3, h4, h5, h6, p, blockquote, cite {
+    margin: 0;
+    padding: 0;
+}
+
 /* ===== UTILITY CLASSES ===== */
 a {
     text-decoration: none;
@@ -102,7 +108,7 @@ img {
 
 /* ===== INFORMATION SECTION ===== */
 .container2 {
-    background: #e5e7eb;
+    background: #FFFFFF;
     flex: 1;
     padding: 10px 100px;
     
@@ -147,9 +153,50 @@ img {
         
 }
 
-/* ===== FINAL SECTION ===== */
+/* ===== QUOTE SECTION ===== */
 .container3 {
-    /* Placeholder for future content */
+    
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 100px;
+    
+    justify-content: center;
+}
+
+.quotewrapper{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quotebody{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 200;
+    
+    text-align: left;
+    
+    
+
+    
+}
+
+.quotesource{
+    font-size: 24px;
+    font-weight: 800;
+    font-style: normal;
+    text-align: right;
+
+
+    
+    
+    
+}
+
+/* ====CALL TO ACTION SECTION */
+.container4{
+    
 }
 
 /* ===== FOOTER SECTION ===== */
