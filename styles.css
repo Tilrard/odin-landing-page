@@ -30,7 +30,6 @@ img {
     width: 100%;
     height: 100%;
     border-radius: 12px;
-    /* object-fit: cover; */
 }
 
 /* ===== HEADER SECTION ===== */
@@ -77,14 +76,12 @@ img {
     flex-direction: column;
     gap: 15px;
     flex: 1 1 45%;
-    
 }
 
 .hero1 {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
-    
 }
 
 .hero2 {
@@ -111,8 +108,7 @@ img {
 .container2 {
     background: #FFFFFF;
     flex: 1;
-    padding: 10px 100px;
-    
+    padding: 50px 100px;
 }
 
 .information_header {
@@ -125,85 +121,117 @@ img {
     gap: 100px;
 }
 
-.infoboxes{
+.infoboxes {
     display: flex;
     justify-content: center;
     gap: 120px;
 }
 
-.box1, .box2, .box3, .box4{
+.box1, .box2, .box3, .box4 {
     border: 4px solid #3882f6;
     border-radius: 15px;
     width: 200px;
     height: 200px;
-
 }
 
-.boxsubheaders{
+.boxsubheaders {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     gap: 128px;
     text-align: center;
 }
 
-.sub1,.sub2,.sub3,.sub4{
+.sub1, .sub2, .sub3, .sub4 {
     display: flex;
     max-width: 200px;
     margin-top: 15px;
-    
-        
 }
 
 /* ===== QUOTE SECTION ===== */
 .container3 {
-    
     background-color: #E5E7EB;
     display: flex;
     padding: 100px;
-    
     justify-content: center;
 }
 
-.quotewrapper{
+.quotewrapper {
     width: 800px;
     display: flex;
     flex-direction: column;
 }
 
-.quotebody{
+.quotebody {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
     font-weight: 200;
-    
     text-align: left;
-    
-    
-
-    
 }
 
-.quotesource{
+.quotesource {
     font-size: 24px;
     font-weight: 800;
     font-style: normal;
     text-align: right;
-
-
-    
-    
-    
 }
 
-/* ====CALL TO ACTION SECTION */
-.container4{
-    
+/* ===== CALL TO ACTION SECTION ===== */
+.container4 {
+    display: flex;
+    padding: 100px;
+    background: #FFFFFF;
+    justify-content: center;
+}
+
+.calltoaction {
+    background: #3882f6;
+    padding: 25px 120px;
+    width: 1000px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.c2abox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.c2a_header, .c2a_subheader {
+    color: #FFFFFF;
+}
+
+.c2a_header {
+    font-size: 24px;
+    font-weight: 550;
+    display: flex;
+}
+
+.c2a_subheader {
+    font-size: 16px;
+    font-weight: 120;
+    display: flex;
+}
+
+.c2a_signup {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    padding: 18px 50px;
+    margin-right: 8px;
+    border-radius: 10px;
+    border-color: #FFFFFF;
 }
 
 /* ===== FOOTER SECTION ===== */
 .footer {
     height: 72px;
-    background: gray;
+    background: #1F2937;
     color: white;
     display: flex;
     align-items: center;
