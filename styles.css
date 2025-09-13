@@ -36,7 +36,7 @@ img {
 /* ===== HEADER SECTION ===== */
 .header {
     height: 72px;
-    padding: inherit;
+    padding: 20px 150px;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -61,6 +61,7 @@ img {
 /* ===== HERO SECTION ===== */
 .container1 {
     padding: 20px 150px;
+    background: #1F2937;
 }
 
 .header_content {
